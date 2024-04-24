@@ -1,2 +1,2 @@
-var arr3 = "jones".split('');
-const randomBoolean = () => Math.random() >= 0.5;
+const isWeekday = (date) => date.getDay() % 6 !== 0;
+const isEmptyObject = obj => Object.keys(obj).length === 0;
