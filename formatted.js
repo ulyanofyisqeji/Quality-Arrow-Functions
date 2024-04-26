@@ -1,6 +1,6 @@
-const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-const isEmptyObject = obj => Object.keys(obj).length === 0;
-console.log(typeof typeof 1);
-const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
-console.log(false === '0');
+const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
+console.log(1 +  "2" + "2");
+const symbolsPath = path.join(buildOutputPath, 'symbols');
+const channel = getChannel(computedAppVersion);
+const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
