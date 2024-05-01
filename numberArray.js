@@ -1,3 +1,2 @@
-const repositoryRootPath = path.resolve(__dirname, '..');
-const removeDuplicates = (arr) => [...new Set(arr)];
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
+const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+const symbolsPath = path.join(buildOutputPath, 'symbols');
