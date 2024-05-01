@@ -1,2 +1,3 @@
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
-const symbolsPath = path.join(buildOutputPath, 'symbols');
+const merge = (a, b) => a.concat(b);
+const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
+const merge = [...new Set(a.concat(b))];
