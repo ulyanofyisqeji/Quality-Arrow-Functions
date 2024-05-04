@@ -1,3 +1,2 @@
-const merge = (a, b) => a.concat(b);
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
-const merge = [...new Set(a.concat(b))];
+var arr2 = arr1.reverse();
+console.log(1 +  +"2" + "2");
