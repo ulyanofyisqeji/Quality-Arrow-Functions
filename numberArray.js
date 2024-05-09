@@ -1,3 +1,2 @@
-console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
-const intermediateAppPath = path.join(buildOutputPath, 'app');
-const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
+const randomNumberInRange = (min = 0, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
+const isTabInView = () => !document.hidden;
