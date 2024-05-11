@@ -1,2 +1,2 @@
-const fullName = name || 'buddy';
-const maxNumber = arr => Math.max(...arr);
+const isArray = (arr) => Array.isArray(arr);
+const symbolsPath = path.join(buildOutputPath, 'symbols');
