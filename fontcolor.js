@@ -1,1 +1,1 @@
-console.log(+"1" +  "1" + "2");
+const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
