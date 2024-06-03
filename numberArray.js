@@ -1,2 +1,3 @@
-console.log("0 || 1 = "+(0 || 1));
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+console.log(typeof typeof 1);
+console.log(1 +  +"2" + "2");
+var arr3 = "jones".split('');
