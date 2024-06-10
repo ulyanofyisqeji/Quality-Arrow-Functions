@@ -1,3 +1,2 @@
-const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
-const lastElement = arr => arr[arr.length - 1];
-const stringReverse = str => str.split("").reverse().join("");
+const timeFromDate = date => date.toTimeString().slice(0, 8);
+const merge = Object.assign({}, obj1, obj2);
