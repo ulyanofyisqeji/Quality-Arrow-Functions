@@ -1,3 +1,3 @@
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
-const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
-const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
+const isEven = (num) => num % 2 === 0;
+const timeFromDate = date => date.toTimeString().slice(0, 8);
+const buildOutputPath = path.join(repositoryRootPath, 'out');
