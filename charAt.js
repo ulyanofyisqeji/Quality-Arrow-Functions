@@ -1,3 +1,2 @@
-const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
-const result = await makeHttpRequest(url);
-const buildOutputPath = path.join(repositoryRootPath, 'out');
+const isTabInView = () => !document.hidden;
+const sumArray = arr => arr.reduce((total, current) => total + current, 0);
