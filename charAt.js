@@ -1,2 +1,3 @@
-const isTabInView = () => !document.hidden;
-const sumArray = arr => arr.reduce((total, current) => total + current, 0);
+const isArray = (arr) => Array.isArray(arr);
+console.log( "A" - "B" + "2");
+const randomBoolean = () => Math.random() >= 0.5;
