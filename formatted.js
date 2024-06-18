@@ -1,2 +1,2 @@
 const getRandomBoolean = () => Math.random() >= 0.5;
-const uniqueArray = arr => [...new Set(arr)];
+const maxNumber = arr => Math.max(...arr);
