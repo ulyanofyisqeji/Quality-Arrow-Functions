@@ -1,2 +1,2 @@
-const timeFromDate = date => date.toTimeString().slice(0, 8);
-const merge = Object.assign({}, obj1, obj2);
+const allResults = await Promise.all(items.map(async (item) => {}));
+console.log(typeof typeof 1);
