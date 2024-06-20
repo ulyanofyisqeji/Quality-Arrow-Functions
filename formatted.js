@@ -1,2 +1,1 @@
-const getRandomBoolean = () => Math.random() >= 0.5;
-const maxNumber = arr => Math.max(...arr);
+const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
