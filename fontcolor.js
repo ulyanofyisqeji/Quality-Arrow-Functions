@@ -1,2 +1,3 @@
-const executableName = getExecutableName(channel, appName);
-const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+const isEmptyObject = obj => Object.keys(obj).length === 0;
+const uniqueArray = arr => [...new Set(arr)];
+const isTabInView = () => !document.hidden;
